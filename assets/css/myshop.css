@@ -121,14 +121,10 @@
 /* stars ends */
 
 /* -import-css- */
-@import url("./imporrt.css");
+@import url("./import.css");
 /* @import url("./new.css"); */
-.part-one{
-    /* border: 4px solid red; */
-}
-.part-two{
-    /* border: 4px solid black; */
-}
+
+
 .flex-section{
     position: sticky;
     position:-webkit-sticky;
@@ -500,7 +496,7 @@ ul li :hover > .has-drop-down, ul li .has-drop-down a:hover{
     font-style: italic;
     color: #ffffff;
 }
-@media screen all (max-width:100px){
+@media screen and (max-width:100px){
     .product-one{
         position: stiky;
         
@@ -517,10 +513,6 @@ ul li :hover > .has-drop-down, ul li .has-drop-down a:hover{
     padding: 5px 12px;
 }
 
-.slide-content button{
-    /* margin: 20px; */
-
-}
 
 .slides-wrapper{
     width: 60%;
@@ -964,7 +956,7 @@ ul li :hover > .has-drop-down, ul li .has-drop-down a:hover{
 
 /* twice-caption-end */
 
-/* electronic-nav */ & 
+/* electronic-nav */  
 /* apparals-nav */
 
 .both-nav h1{
@@ -1019,9 +1011,6 @@ ul li :hover > .has-drop-down, ul li .has-drop-down a:hover{
     list-style: none;
 }
 
-.hover-part{
-    /* border: 2px solid red; */
-}
 
 /* .click-wrap:hover{
     position: relative;
