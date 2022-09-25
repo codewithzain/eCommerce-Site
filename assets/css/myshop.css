@@ -1185,10 +1185,6 @@ ul li :hover > .has-drop-down, ul li .has-drop-down a:hover{
 
 /* recently-review-start */
 
-.recently-review-wrapper{
-    /* border: 1px solid grey; */
-    /* display: flex; */
-}
 .recently-review-wrapper .review-heading{
     margin: 20px;
     font-size: 23px;
