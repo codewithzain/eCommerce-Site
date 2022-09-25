@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="./blog.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />            <!-- css rest -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css" integrity="sha512-uBLaY+6crwV4JAHILx0HWvYncrX7TXL770hqxly0ZsQ199v4lr2yNB2jiPMoxNajFPHSQnU80B1O8dJLujWZMg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- boxicon-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />                
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=open+Sans:wght@400;600&family=Playfair+Display:ital,wght@1,800&display=swap" rel="stylesheet">
+     <!-----owl carousal----->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- bootstrap css-->
+ <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="top-nav-wrapper">
+            <div id="top-one">
+                <div class="container">
+                    <div class="top-one-wrapper">
+                        <div class="heading-top">
+                         <h3>welcome to wolmart store message and remmove it</h3>
+                        </div>
+                        <div class="top-list">
+                            <div class="lang-selector">
+                                <select class="currency-selector" name="currencySelector">
+                                    <option value="usd">USD</option>
+                                    <option value="pak">PAK</option>
+                                </select>
+                                <select  class="custom-select" name="language-selector">
+                                    <option value="eng">ENG</option>
+                                    <option value="ar">AR</option>
+                                </select>
+                            </div>
+                            <div class="navbar-nav">
+                                <ul>
+                                    <li><a href="#">blog</a></li>
+                                    <li><a href="#">my contacts</a></li>
+                                    <li><a href="#">my account</a></li>
+                                    <li><a href="#"><i class="fas fa-user-tag">sign in</i></a></li>
+                                    <li><a class="nav-item" href="#">register</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-two-wrapper">
+                <div class="container">
+                    <div id="top-two">
+                        <div class="left-top">
+                         <div class="logo-sign">
+                             <figure><img src="./assets/images/logo-1.png" alt=""></figure>
+                         </div>
+                         <div class="search-bar">
+                             <div class="search-bar-wrapper">
+                                 <div class="selector-container">
+                                     <select name="categories-select" id="select-option">
+                                         <option value="1">all-categories</option>
+                                         <option value="2">fashion</option>
+                                         <option value="3">furneture</option>
+                                         <option value="4">shoes</option>
+                                         <option value="5">spotrs</option>
+                                         <option value="6">clothing</option>
+                                         <option value="7">kitchen</option>
+                                     </select>
+                                 </div>
+                                 <div class="search-div">
+                                    <input type="text" text="search-bar" id="search" placeholder="search in.." >
+                                 </div>
+                                 <div class="search-icon">
+                                  <a href="../project 1 full site/myshop.html"><i style='font-size:30px' class='fas'>&#xf002;</i></a>
+                                 </div>
+                             </div>
+                         </div>
+                        </div>
+                        <div class="right-top">
+                         <div class="right-top-wrapper">
+                             <div class="call-icon">
+                                 <a href="#"><i style='font-size:24px' class='fas'>&#xf879;</i></a>
+                             </div>
+                             <div class="call-center">
+                                 <div class="chat">
+                                     <h3><a href="#">live chat or::</a></h3>
+                                     <a href="./myshop.html"><h5>03051070690</h5></a>
+                                 </div>
+                             </div>
+                             <div class="wish-list">
+                                 <a href="#"><i style='font-size:24px' class='far'>&#xf004;</i></a>
+                                 <h1><a href="#">wish list</a></h1>
+                             </div>
+                             <div class="compare">
+                                 <a href="#"><i style='font-size:24px' class='fas'>&#xf515;</i></a>
+                                 <h1><a href="#">cart</a></h1>
+                             </div>
+                             <div class="cart">
+                                 <a href="3"><i style='font-size:24px' class='fas'>&#xf07a;</i></a>
+                                 <h1><a href="#">cart</a></h1>
+                             </div>
+                         </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-header">
+                <div class="stickey-header-wrapper">
+                    <div class="container">
+                        <div class="left-header-content">
+                            <div class="dropdown-category">
+                                <div class="categories">
+                                  <a href="#" class="top-heading">
+                                      <div><i class="fas fa-grip-lines">browsers categories</i></div>
+                                      <div><i style='font-size:24px' class='fas'>&#xf107;</i></div>
+                                  </a>
+                                      <ul class="menu-bar">
+                                          <li><i class="fas fa-tshirt"></i><a href="#"> fashion</a></li>
+                                          <li><i class="fas fa-home"></i><a href="#">home</a></li>
+                                          <li><i class="fas fa-couch"></i><a href="#"> furniture</a></li>
+                                          <li><i class="fas fa-laptop-medical"></i><a href="#">gifts</a></li>
+                                          <li><i class="fas fa-heartbeat"></i><a href="#">health/beauty</a></li>
+                                          <li><i class="fas fa-gamepad"></i><a href="#">toys</a></li>
+                                          <li><i class="fas fa-blender-phone"></i><a href="#">smart phones</a></li>
+                                          <li><i class="fas fa-camera"></i><a href="#"></a>photos/cameras</li>
+                                      </ul>
+                                </div>
+                            </div>
+                            <div class="main-nav-menu">
+                                <div class="nav-menu-wrapper">
+                                    <ul class="nav-menu">
+                                        <li><a href="./myshop.html">home</a></li>
+                                        <li><a href="./myshop.html">Belog</a></li>
+                                        <li class="mega  shop">
+                                            <a href="./myshop.html">Shop<i style='font-size:17px' class='fas'>&#xf107;</i></a>
+                                            <ul class="mega-menu">
+                                                <li>
+                                                    <div class="mega-flex">
+                                                        <div>
+                                                            <h1 class="menu-tag"><a href="./myshop.html"> shop pages</a></h1>
+                                                            <ul class="mega-shop-menu">
+                                                                <li><a href="./myshop.html">Banner With Sidebar</a></li>
+                                                                <li><a href="./myshop.html">Boxed Banner</a></li>
+                                                                <li><a href="./myshop.html">Full Width Banner</a></li>
+                                                                <li><a href="./myshop.html">Horizontal Filter<span class="tip tip-hot">Hot</span></a></li>
+                                                                <li><a href="./myshop.html">Off Canvas Sidebar<span class="tip tip-new">New</span></a></li>
+                                                                <li><a href="./myshop.html">Infinite Ajax Scroll</a></li>
+                                                                <li><a href="./myshop.html">Right Sidebar</a></li>
+                                                                <li><a href="./myshop.html">Both Sidebar</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div>
+                                                            <h1 class="menu-tag"><a href="./myshop.html">Shop Layouts</a></h1>
+                                                            <ul>
+                                                                <li><a href="./myshop.html">3 Columns Mode</a></li>
+                                                                <li><a href="./myshop.html">4 Columns Mode</a></li>
+                                                                <li><a href="./myshop.html">5 Columns Mode</a></li>
+                                                                <li><a href="./myshop.html">6 Columns Mode</a></li>
+                                                                <li><a href="./myshop.html">7 Columns Mode</a></li>
+                                                                <li><a href="./myshop.html">8 Columns Mode</a></li>
+                                                                <li><a href="./myshop.html">List Mode</a></li>
+                                                                <li><a href="./myshop.html">List Mode With Sidebar</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mega  vendor">
+                                            <a href="./myshop.html">vendor <i style='font-size:17px' class='fas'>&#xf107;</i></a>
+                                            <ul class="mega-menu vendor-menu">
+                                                <li class="has-sub-menu">
+                                                    <a href="#">store listing <i class='bx bx-chevrons-right'></i></a>
+                                                    <ul class="has-mega-menu store-list">
+                                                        <li><a href="#">store listinig 1</a></li>
+                                                        <li><a href="#">store listinig 2</a></li>
+                                                        <li><a href="#">store listinig 3</a></li>
+                                                        <li><a href="#">store listinig 4</a></li>
+                                                    </ul>
+                                                </li>
+                                                <ul class="store-menu">
+                                                    <li class="has-sub-menu">
+                                                        <a href="#">vendor listing <i class='bx bx-chevrons-right'></i></a>
+                                                        <ul class="has-mega-menu">
+                                                            <li><a href="#">vendor listinig 1</a></li>
+                                                            <li><a href="#">vendor listinig 2</a></li>
+                                                            <li><a href="#">vendor listinig 3</a></li>
+                                                            <li><a href="#">vendor listinig 4</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                        </li>
+                                        <li class="pages">
+                                            <a href="./myshop.html">pages</a> <i style='font-size:17px' class='fas'>&#xf107;</i>
+                                            <ul class="mega-menu">
+                                                <li><a href="#">About Us</a></li> 
+                                                <li><a href="#">Become A Vendor</a></li>
+                                                <li><a href="#">Contact Us</a></li>
+                                                <li><a href="#">FAQs</a></li>
+                                                <li><a href="#">Error 404</a></li>
+                                                <li><a href="#">Coming Soon</a></li>
+                                                <li><a href="#">Wishlist</a></li>
+                                                <li><a href="#">Cart</a></li>
+                                                <li><a href="#">Checkout</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="elemets">
+                                            <a href="./myshop.html">element</a> <i style='font-size:17px' class='fas'>&#xf107;</i>
+                                            <ul class="mega-menu">
+                                                <li><a href="#">Accordions</a></li>
+                                                <li><a href="#">Alert & Notification</a></li>
+                                                <li><a href="#">Blog Posts</a></li>
+                                                <li><a href="#">Buttons</a></li>
+                                                <li><a href="#">Call to Action</a></li>
+                                                <li><a href="#">Icons</a></li>
+                                                <li><a href="#">Icon Boxes</a></li>
+                                                <li><a href="#">Instagrams</a></li>
+                                                <li><a href="#">Product Category</a></li>
+                                                <li><a href="#">Products</a></li>
+                                                <li><a href="#">Tabs</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-header-content">
+                            <div>
+                                <a href="./myshop.html"><img src="./assets/images/icon.png" width="45px" height="45px">  track order</a>
+                            </div>
+                            <div>
+                                <a href="./myshop.html"><img src="./assets/images/4075940_label_price_sale_shopping_tag_icon.png" >daily deal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div> 
+    </header>
+    <main>
+        <section class="heading">
+            <div class="heading-tittle">
+                <div class="container">
+                    <div><h1>Classic</h1></div>
+                </div>
+            </div>
+        </section>
+        <div class="main-links">
+            <div class="container">
+                <a href="./myshop.html">home <i class='bx bx-chevron-right'></i></a>
+                <a href="./blog.html">blog <i class='bx bx-chevron-right'></i></a>
+                <a href="./blog.html">classic <i class='bx bx-chevron-right'></i></a>
+            </div>
+        </div>
+        <section>
+            <div class="main-content">
+                <div class="container">
+                    <div class="main-wrapper">
+                        <div class="mian-part">
+                            <article>
+                                <figure>
+                                    <img src="./assets/images/1 (1).jpg" alt="">
+                                </figure>
+                                <div class="post-details">
+                                    <a href="#">fashion</a>
+                                    <h1>New found the men dress for summer</h1>
+                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at vulputate volutpat, uctus metus libero eu augue, vitae luctus… <a href="#">(read more)</a></p>
+                                     <div>byJohn Doe-03.05.2021</div>
+                                </div>
+                            </article>
+                            <article>
+                                <figure>
+                                    <img src="./assets/images/3 (1).jpg" alt="">
+                                </figure>
+                                    <div class="post-details">
+                                        <a href="#">Others, Technology</a> 
+                                      <h1>Recognitory the needs is primary condition for design</h1>
+                                      <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at vulputate volutpat, uctus metus libero eu augue, vitae luctus… <a href="#">(read more)</a></p> 
+                                       <div>byJohn Doe-03.05.2021</div> 
+                                    </div>
+                               
+                            </article>
+                            <article>
+                                <figure>
+                                    <img src="./assets/images/2 (1).jpg" alt="">
+                                </figure>
+                                <div class="post-details">  
+                                    <a href="#">Lifestyle</a> 
+                                    <h1>We want to be different and fashion gives to me that outlet</h1>
+                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at vulputate volutpat, uctus metus libero eu augue, vitae luctus… <a href="#">(read more)</a></p>
+                                    <div>byJohn Doe-03.05.2021</div>
+                                 </div>
+                            </article>
+                            <article>
+                                <figure>
+                                    <img src="./assets/images/4.jpg" alt="">
+                                </figure>
+                                 <div class="post-details">  
+                                    <a href="#">Lifestyle</a> 
+                                    <h1>We want to be different and fashion gives to me that outlet</h1>
+                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at vulputate volutpat, uctus metus libero eu augue, vitae luctus… <a href="#">(read more)</a></p>
+                                    <div>byJohn Doe-03.05.2021</div>
+                                 </div>
+                            </article>
+                            <article>
+                                <figure>
+                                    <img src="./assets/images/3.jpg" style="width: 930px;">
+                                </figure>
+                                <div class="post-details">  
+                                    <a href="#">Lifestyle</a> 
+                                    <h1>We want to be different and fashion gives to me that outlet</h1>
+                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at vulputate volutpat, uctus metus libero eu augue, vitae luctus… <a href="#">(read more)</a></p>
+                                    <div>byJohn Doe-03.05.2021</div>
+                                 </div>
+                            </article>
+                            <article>
+                                <figure>
+                                    <img src="./assets/images/5.jpg" alt="">
+                                </figure>
+                                <div class="post-details">  
+                                    <a href="#">Lifestyle</a> 
+                                    <h1>We want to be different and fashion gives to me that outlet</h1>
+                                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti.Sed egstas, ant at vulputate volutpat, uctus metus libero eu augue, vitae luctus… <a href="#">(read more)</a></p>
+                                    <div>byJohn Doe-03.05.2021</div>
+                                 </div>
+                            </article>
+                        </div>
+                        <aside>
+                            <div class="aside-wrpper">
+                                <div class="sticky-wrapper">
+                                    <form action="#" class="form">
+                                        <input type="text"  id="form-control" placeholder="search in blog...">
+                                        <button class="btn"><i class='bx bx-search-alt-2 bx-md' ></i></button>
+                                    </form>
+                                    <div class="categories-wrapper">
+                                        <h1>categories</h1>
+                                        <ul>
+                                            <li><a href="#">clothes</a></li>
+                                            <li><a href="#">entertainment</a></li>
+                                            <li><a href="#">shoes</a></li>
+                                            <li><a href="#">fashion</a></li>
+                                            <li><a href="#">life style</a></li>
+                                            <li><a href="#">other</a></li>
+                                            <li><a href="#">technology</a></li>
+                                        </ul>
+                                    </div>   
+                                    <div class="mini-slider" id="populer-post">
+                                        <div class="post-div"> <h3>populer post <i class='bx bx-expand-horizontal'></i></h3></div>
+                                        <div class="brand-carousel owl-carousel">
+                                            <div class="one">
+                                                <div class="articles-wrapper">
+                                                    <div class="content-flex">
+                                                        <div class="img">
+                                                            <img src="./assets/images/5.54.jpg" alt="">    
+                                                        </div>
+                                                        <div class="post-details">
+                                                            <h2><a href="#">March 1,2001</a></h2>
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, corporis?</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-flex">
+                                                        <div class="img">
+                                                            <img src="./assets/images/2 (2).jpg" alt="">
+                                                        </div>
+                                                        <div class="post-details">
+                                                            <h2><a href="#">March 1,2001</a></h2>
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, corporis?</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-flex">
+                                                        <div class="img">
+                                                            <img src="./assets/images/3 (2).jpg" alt="">
+                                                        </div>
+                                                        <div class="post-details">
+                                                            <h2><a href="#">March 1,2001</a></h2>
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, corporis?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="two">
+                                                <div class="articles-wrapper">
+                                                    <div class="content-flex">
+                                                        <div class="img">
+                                                            <img src="./assets/images/1-2.jpg" alt="">    
+                                                        </div>
+                                                        <div class="post-details">
+                                                            <h2><a href="#">March 1,2001</a></h2>
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, corporis?</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-flex">
+                                                        <div class="img">
+                                                            <img src="./assets/images/4-4 (1).jpg" alt="">
+                                                        </div>
+                                                        <div class="post-details">
+                                                            <h2><a href="#">March 1,2001</a></h2>
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, corporis?</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-flex">
+                                                        <div class="img">
+                                                            <img src="./assets/images/3-4-2.jpg" alt="">
+                                                        </div>
+                                                        <div class="post-details">
+                                                            <h2><a href="#">March 1,2001</a></h2>
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, corporis?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>     
+                                    <div class="custom-block">
+                                        <h2>custom block</h2>
+                                        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tenetur iste soluta adipisci ullam sed minima. Labore similique veniam sequi.</p></div>
+                                    </div>          
+                                    <div class="browser-tags">
+                                        <div><h2>browser tags</h2></div>
+                                        <div class="tags-here">
+                                            <a href="#" class="tags">fashion</a>
+                                            <a href="#" class="tags">style</a>
+                                            <a href="#" class="tags">travel</a>
+                                            <a href="#" class="tags">women</a>
+                                            <a href="#" class="tags">hobbies</a>
+                                            <a href="#" class="tags">shopping</a>
+                                            <a href="#" class="tags">photography</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready (function(){
+   $(".carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsive: {
+    0:{
+      items:1,
+      nav: false
+    },
+    600:{
+    items:1,
+       nav: false
+     },
+     1000:{
+    items:1,
+    nav: false
+    }
+    }
+   });
+   
+   $(".brands-carousel").owlCarousel({
+    // margin: 20,
+    loop: true,
+    autoplay: true ,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    responsive: {
+    0:{
+      items:2,
+      nav: false
+    },
+    600:{
+    items:3,
+       nav: false
+     },
+     1000:{
+    items:4,
+    nav: false
+    }
+    }
+   });
+   $(".brand-carousel").owlCarousel({
+
+    // margin: 20,
+    loop: true,
+    autoplay: true ,
+    autoplayTimeout: 900,
+    autoplayHoverPause: true,
+    responsive: {
+    0:{
+      items:2,
+      nav: false
+    },
+    600:{
+    items:3,
+       nav: false
+     },
+     1000:{
+    items:1,
+    nav: false
+    }
+    }
+   });
+   $('.owl-carousel').owlCarousel({
+        items:4,
+        loop:false,
+        center:true,
+        margin:10,
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash'
+    });
+   $('.testimonials-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+$('.owl-carousel').owlCarousel({
+        items:1,
+        loop:false,
+        center:true,
+        margin:10,
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash'
+    });
+   });
+</script>    
+    
+    
+</body>
+</html>
